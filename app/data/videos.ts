@@ -20,7 +20,7 @@ export const videos: Video[] = [
   {
     id: 3,
     videoUrl:
-      "https://media.w3.org/2010/05/sintel/trailer.mp4",
+      "/videos/trailer.mp4",
     authorName: "NextJS",
     description: "Sintel Trailer",
     likesCount: 500
