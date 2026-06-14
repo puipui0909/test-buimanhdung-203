@@ -21,8 +21,8 @@ const observer = new IntersectionObserver(
 
 Khi người dùng cuộn trang:
 
-* Nếu video xuất hiện trong viewport và đạt ngưỡng hiển thị 70%, `entry.isIntersecting` sẽ bằng `true` và video được phát bằng `video.play()`.
-* Nếu video không còn đạt ngưỡng hiển thị hoặc bị cuộn ra khỏi màn hình, `entry.isIntersecting` sẽ bằng `false` và video được tạm dừng bằng `video.pause()`.
+ Nếu video xuất hiện trong viewport và đạt ngưỡng hiển thị 70%, `entry.isIntersecting` sẽ bằng `true` và video được phát bằng `video.play()`.
+ Nếu video không còn đạt ngưỡng hiển thị hoặc bị cuộn ra khỏi màn hình, `entry.isIntersecting` sẽ bằng `false` và video được tạm dừng bằng `video.pause()`.
 
 Luồng xử lý:
 
